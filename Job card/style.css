@@ -1,0 +1,98 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #1a202c;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 200px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #1a202c;
+}
+
+.card p {
+  font-size: 18px;
+  margin: 0;
+  color: #4a5568;
+  border: 1px solid #e2e8f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card .highlight {
+  background-color: #1a202c;
+  color: white;
+  border: none;
+}
+
+.icon {
+  background-color: #f3e8ff;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #6b46c1;
+}
+
+.icon.design {
+  background-color: #f3e8ff;
+}
+
+.icon.engineering {
+  background-color: #ffe4e4;
+}
+
+.icon.operations {
+  background-color: #e6f6ff;
+}
+
+.icon.people {
+  background-color: #d7ffef;
+}
+
+.icon.sales {
+  background-color: #ffe4db;
+}
+
+.icon.university {
+  background-color: #fbe5ff;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #718096;
+}
